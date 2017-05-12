@@ -16,7 +16,6 @@
       <tr>
         <td><%= link.title %></td>
         <td><%= link.Url %></td>
-        <td><%= link.user.password %></td>
         <td><%= link_to 'Show', link %></td>
         <%if link.user == current_user%>
         <td><%= link_to 'Edit', edit_link_path(link) %></td>
